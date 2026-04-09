@@ -6,6 +6,7 @@ import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public record CountryResponse(
+        String countryCode,
         String name,
         String officialName,
         List<String> languages,
@@ -14,6 +15,5 @@ public record CountryResponse(
         String flag,
         String phoneCode,
         String region,
-        List<String> borders,
-        String countryCode
+        List<String> borders
 ) {}
