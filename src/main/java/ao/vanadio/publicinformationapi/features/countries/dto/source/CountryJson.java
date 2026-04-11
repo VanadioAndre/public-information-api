@@ -15,6 +15,7 @@ public record CountryJson(
         List<String> borders,
         String flag,
         String cca2,
+        String cca3,
         Map<String, Translation> translations
 ) {
 
@@ -22,7 +23,7 @@ public record CountryJson(
     public record Name(
             String common,
             String official,
-            Map<String, Translation> nativeNames  // adiciona nomes nativos
+            Map<String, Translation> nativeNames
     ) {}
 
     public record Currency(
