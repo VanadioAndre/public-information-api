@@ -9,6 +9,6 @@ logging:
     org.hibernate: INFO
 
 server:
-  port: ${SERVER_PORT:8086}
+  port: ${PORT:8088}
   servlet:
     context-path: /api

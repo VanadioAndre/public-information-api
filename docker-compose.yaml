@@ -2,6 +2,6 @@ services:
   public-information-api:
     build: .
     ports:
-      - "${SERVER_PORT:-8088}:${SERVER_PORT:-8088}"
+      - "${PORT:-8088}:${PORT:-8088}"
     environment:
-      - SERVER_PORT=${SERVER_PORT:-8088}
+      - PORT=${PORT:-8088}
