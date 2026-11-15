@@ -1,40 +1,36 @@
-# Stage 1: Build stage
-FROM eclipse-temurin:21-jdk-jammy AS builder
+ARG REGISTRY_PREFIX=""
+
+FROM ${REGISTRY_PREFIX}eclipse-temurin:21-jdk-alpine AS builder
 WORKDIR /build
-# Copy only the build files first to cache dependencies
+
 COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
-# Cache dependencies
-RUN chmod +x mvnw
+RUN chmod +x ./mvnw
+
 RUN ./mvnw dependency:go-offline
 
-# Copy source code
 COPY src src
-# Build the application
 RUN ./mvnw package -DskipTests
 
-# Stage 2: Runtime stage
-FROM eclipse-temurin:21-jre-jammy
+RUN mv /build/target/*.jar /build/target/app.jar
+
+FROM ${REGISTRY_PREFIX}eclipse-temurin:21-jre-alpine
 WORKDIR /app
 
-# Create a non-root user
-RUN addgroup --system javauser && adduser --system --group javauser
+RUN addgroup -S javauser && \
+    adduser -S -G javauser javauser && \
+    apk add --no-cache curl
+
+COPY --from=builder /build/target/app.jar .
+
+RUN chown -R javauser:javauser /app
+
 USER javauser
 
-# Copy the jar from builder stage
-COPY --from=builder /build/target/*.jar app.jar
+HEALTHCHECK --interval=30s --timeout=3s --start-period=15s --retries=3 \
+  CMD curl -f http://localhost:8082/api/actuator/health || exit 1
 
-# Configure health check
-HEALTHCHECK --interval=30s --timeout=3s \
-  CMD curl -f http://localhost:8080/actuator/health || exit 1
+EXPOSE 8088
 
-# Use environment variables for configuration (maxHeapSize, minHeapSize)
-ENV JAVA_OPTS="-Xmx512m -Xms256m"
-    #SPRING_PROFILES_ACTIVE="prod"
-
-# Expose the application port
-EXPOSE 8080
-
-# Run with proper Java options
-ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar app.jar"]
+ENTRYPOINT ["sh", "-c", "exec java $JAVA_OPTS -jar app.jar"]
