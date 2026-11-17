@@ -17,7 +17,8 @@ public class CacheConfig {
     public CacheManager cacheManager() {
         CaffeineCacheManager manager = new CaffeineCacheManager(
                 CacheNames.COUNTRIES,
-                CacheNames.ANGOLA
+                CacheNames.ANGOLA,
+                CacheNames.GEO
         );
         manager.setCaffeine(
                 Caffeine.newBuilder()
