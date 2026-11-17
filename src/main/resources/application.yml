@@ -1,6 +1,18 @@
 spring:
   application:
     name: public-information-api
+  datasource:
+    url: jdbc:h2:mem:geo;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+
+app:
+  geo:
+    seed:
+      enabled: true
 
 logging:
   level:
