@@ -35,6 +35,10 @@ public class AngolaService {
         provinces = wrapper.provinces();
     }
 
+    public List<ProvinceJson> getRawProvinces() {
+        return provinces;
+    }
+
     @Cacheable(
             cacheNames = CacheNames.ANGOLA,
             key = "#page + ':' + #size + ':' + #filter"

@@ -12,7 +12,10 @@ public class AngolaMapper {
     public ProvinceResponse toResponse(ProvinceJson p) {
         return new ProvinceResponse(
                 p.name(),
+                p.isoCode(),
                 p.capital(),
+                p.population(),
+                p.populationDensity(),
                 p.languages(),
                 p.area(),
                 p.ethnicities(),

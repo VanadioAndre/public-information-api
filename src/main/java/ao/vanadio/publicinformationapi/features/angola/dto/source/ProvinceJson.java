@@ -9,6 +9,9 @@ import java.util.List;
 public record ProvinceJson(
         @JsonProperty("it_id_provincia") int id,
         @JsonProperty("vc_nome") String name,
+        @JsonProperty("vc_codigo_iso") String isoCode,
+        @JsonProperty("it_populacao") Long population,
+        @JsonProperty("vc_densidade_populacional") String populationDensity,
         @JsonProperty("vc_governador") Governor governor,
         @JsonProperty("vc_vice_governadores") List<ViceGovernor> viceGovernors,
         @JsonProperty("vc_capital") String capital,

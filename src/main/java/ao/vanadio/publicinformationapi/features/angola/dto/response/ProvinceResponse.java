@@ -6,7 +6,10 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public record ProvinceResponse(
         String name,
+        String isoCode,
         String capital,
+        Long population,
+        String populationDensity,
         String languages,
         String area,
         String ethnicities,
