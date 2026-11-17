@@ -1,8 +1,43 @@
 {
+  "lastUpdated": "2026-11-17",
+  "sources": [
+    "https://www.governo.gov.ao/governador",
+    "https://www.governo.gov.ao/vice-governador/<province-slug>",
+    "https://www.cipra.gov.ao/noticias/2118/governo/cidade-alta/presidente-da-republica-nomeia-novos-governadores-provinciais",
+    "https://rna.ao/rna.ao/2026/04/13/eugenio-laborinho-e-o-novo-governador-do-cuanza-sul/",
+    "https://www.ine.gov.ao/publicacoes/detalhes/NDc0MTE%3D",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_638996687409619846.pdf",
+    "https://en.wikipedia.org/wiki/ISO_3166-2:AO",
+    "https://www.iso.org/obp/ui/#iso:code:3166:AO",
+    "https://www.geonames.org/AO/administrative-division-angola.html",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639050104455150531.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639051372856668517.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639051805987160989.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639062413002295499.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639064071318925115.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639064111089603097.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639064347606305071.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639064975879258682.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639065784580611643.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639065854702898637.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639070145024903075.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639071861895047488.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639071901376985768.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639074613297362596.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639081910852232827.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639086316474352489.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639120325078684256.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639175196705255655.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639175197254207294.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639175220682196239.pdf",
+    "https://www.ine.gov.ao/Arquivos/arquivosCarregados//Carregados/Publicacao_639175237509463838.pdf"
+  ],
   "provinces": [
     {
       "it_id_provincia": 1,
       "vc_nome": "BENGO",
+      "vc_codigo_iso": "AO-BGO",
+      "it_populacao": 716335,
       "vc_governador": {
         "vc_nome": "Maria Antónia Nelumba",
         "vc_data_nomeacao": "16/09/2022",
@@ -10,23 +45,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "JOSÉ FRANCISCO BARTOLOMEU PEDRO",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "José Francisco Bartolomeu Pedro",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/bengo_50a49aba9f.jpg"
         },
         {
-          "vc_nome": "EDSON VAZ CÂMARA DA CRUZ",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_nome": "Edson Vaz Câmara da Cruz",
+          "vc_setor": "Vice-Governador para os Serviços Técnicos e Infra-estruturas",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         }
       ],
       "vc_capital": "DANDE",
       "vc_linguas": "Português, Kimbundu, Kikongo",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "35 hab/km²",
       "vc_data_fundacao_provincia": "26-04-1980",
-      "vc_extensao": "31.371 km²",
+      "vc_extensao": "20.301,8 km²",
       "vc_etnias": "Ambundos, Bakongos",
       "it_numero_municipios": 12,
       "municipalities": [
@@ -169,6 +204,8 @@
     {
       "it_id_provincia": 2,
       "vc_nome": "BENGUELA",
+      "vc_codigo_iso": "AO-BGU",
+      "it_populacao": 2597638,
       "vc_governador": {
         "vc_nome": "Manuel Nunes Júnior",
         "vc_data_nomeacao": "31/10/2024",
@@ -176,23 +213,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "Adilson Dellany Martins Gonçalves",
-          "vc_setor": "Vice-Governador para os Serviços Técnicos e Infra-estruturas",
+          "vc_nome": "Cátia Francisca Gertrudes Tchimbinga Cachuco",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "30/08/2024",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/benga_c99d7fc736.jpg"
+          "vc_imagem": "https://sys.portais.gov.ao/uploads/Catia_Francisca_Gertrudes_Tchimbinga_Cachuco_75cf98d29d.jpg"
         },
         {
-          "vc_nome": "Cátia Francisca Gertrudes Tchimbinga Cachuco",
-          "vc_setor": "Vice-Governadora Para Sector Político Social e Económico",
-          "vc_data_nomeacao": "11/10/2022",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/Catia_Francisca_Gertrudes_Tchimbinga_Cachuco_75cf98d29d.jpg"
+          "vc_nome": "Américo Odeias Tchissassa",
+          "vc_setor": "Serviços Técnicos e Infra-estruturas",
+          "vc_data_nomeacao": "01/11/2025",
+          "vc_imagem": ""
         }
       ],
       "vc_capital": "BENGUELA",
       "vc_linguas": "Português, Umbundu, Ohvanyaneka",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "66,3 hab/km²",
       "vc_data_fundacao_provincia": "17-05-1617",
-      "vc_extensao": "39.827 km²",
+      "vc_extensao": "39.155,3 km²",
       "vc_etnias": "Ovimbundu, Ohvanyaneka",
       "it_numero_municipios": 23,
       "municipalities": [
@@ -425,6 +462,8 @@
     {
       "it_id_provincia": 3,
       "vc_nome": "BIÉ",
+      "vc_codigo_iso": "AO-BIE",
+      "it_populacao": 2264874,
       "vc_governador": {
         "vc_nome": "Celeste Elavoco David Adolfo",
         "vc_data_nomeacao": "15/07/2024",
@@ -432,23 +471,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "ALCIDA CELESTE DE JESUS CAMATELI",
-          "vc_setor": "VICE-GOVERNADORA PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Alcida Celeste de Jesus Camateli",
+          "vc_setor": "SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         },
         {
           "vc_nome": "José Fernando Tchatuvela",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_setor": "SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
           "vc_data_nomeacao": "31/01/2025",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         }
       ],
       "vc_capital": "CUITO",
       "vc_linguas": "Português, Umbundo",
-      "vc_densidade_populacional": "000",
+      "vc_densidade_populacional": "32,1 hab/km²",
       "vc_data_fundacao_provincia": "05-01-1922",
-      "vc_extensao": "70.314 km²",
+      "vc_extensao": "70.637,4 km²",
       "vc_etnias": "Bailundo",
       "it_numero_municipios": 19,
       "municipalities": [
@@ -669,6 +708,8 @@
     {
       "it_id_provincia": 4,
       "vc_nome": "CABINDA",
+      "vc_codigo_iso": "AO-CAB",
+      "it_populacao": 903370,
       "vc_governador": {
         "vc_nome": "Suzana Fernanda Pemba Massiala de Abreu",
         "vc_data_nomeacao": "15/07/2024",
@@ -676,23 +717,29 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "MIGUEL DOS SANTOS DE OLIVEIRA",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR POLÍTICO E SOCIAL",
-          "vc_data_nomeacao": "11/10/2022",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/21_374ae2bf7f.jpg"
+          "vc_nome": "Francisco João Gomes Tchimbavo",
+          "vc_setor": "Serviços Económico",
+          "vc_data_nomeacao": "01/11/2025",
+          "vc_imagem": ""
+        },
+        {
+          "vc_nome": "José Cumbo",
+          "vc_setor": "Sector Político e Social",
+          "vc_data_nomeacao": "30/10/2025",
+          "vc_imagem": ""
         },
         {
           "vc_nome": "Juliano Cuabi Niongue Capita",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
-          "vc_data_nomeacao": "11/10/2022",
+          "vc_setor": "Serviços Técnicos e Infra-estruturas",
+          "vc_data_nomeacao": "20/11/2024",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/Juliano_Cuabi_Niongue_Capita_b8d14a4747.jpg"
         }
       ],
       "vc_capital": "CABINDA",
       "vc_linguas": "Português, Fiote, Kikongo",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "125,8 hab/km²",
       "vc_data_fundacao_provincia": "28-02-1862",
-      "vc_extensao": "7.283 km²",
+      "vc_extensao": "7.182,6 km²",
       "vc_etnias": "Bakongo",
       "it_numero_municipios": 10,
       "municipalities": [
@@ -803,6 +850,8 @@
     {
       "it_id_provincia": 5,
       "vc_nome": "CUBANGO",
+      "vc_codigo_iso": "AO-CBG",
+      "it_populacao": 570447,
       "vc_governador": {
         "vc_nome": "José Martins",
         "vc_data_nomeacao": "17/12/2024",
@@ -810,23 +859,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "HELENA LOURENÇO CHIMENA",
-          "vc_setor": "VICE-GOVERNADORA PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Helena Lourenço Chimena",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "31/01/2025",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/cuando_05de9dbd7f.jpeg"
         },
         {
-          "vc_nome": "JOÃO BONIFÁCIO CASSANGA",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
-          "vc_data_nomeacao": "31/01/0001",
+          "vc_nome": "João Bonifácio Cassanga",
+          "vc_setor": "Serviços Técnicos e Infra-Estruturas",
+          "vc_data_nomeacao": "",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/cubango_9e035bf918.jpg"
         }
       ],
       "vc_capital": "MENONGUE",
       "vc_linguas": "Português, Nganguela",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "6,3 hab/km²",
       "vc_data_fundacao_provincia": "21-10-1961",
-      "vc_extensao": "199.049 km²",
+      "vc_extensao": "91.104,9 km²",
       "vc_etnias": "Ovanganguela",
       "it_numero_municipios": 11,
       "municipalities": [
@@ -952,17 +1001,32 @@
     {
       "it_id_provincia": 6,
       "vc_nome": "CUANZA-NORTE",
+      "vc_codigo_iso": "AO-CNO",
+      "it_populacao": 659097,
       "vc_governador": {
-        "vc_nome": "",
-        "vc_data_nomeacao": "",
+        "vc_nome": "João Diogo Gaspar",
+        "vc_data_nomeacao": "17/01/2024",
         "vc_imagem": ""
       },
-      "vc_vice_governadores": [],
+      "vc_vice_governadores": [
+        {
+          "vc_nome": "Michel Raimundo Luzolo",
+          "vc_setor": "Serviços Técnicos e Infra-estruturas",
+          "vc_data_nomeacao": "16/07/2024",
+          "vc_imagem": ""
+        },
+        {
+          "vc_nome": "Marcos André Pedro Garcia",
+          "vc_setor": "SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_data_nomeacao": "19/06/2026",
+          "vc_imagem": ""
+        }
+      ],
       "vc_capital": "CAZENGO",
       "vc_linguas": "Português, Kimbundu",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "32,2 hab/km²",
       "vc_data_fundacao_provincia": "15-08-1914",
-      "vc_extensao": "24.110 km²",
+      "vc_extensao": "20.460 km²",
       "vc_etnias": "Ambundu",
       "it_numero_municipios": 17,
       "municipalities": [
@@ -1158,15 +1222,30 @@
     {
       "it_id_provincia": 7,
       "vc_nome": "CUANZA-SUL",
+      "vc_codigo_iso": "AO-CUS",
+      "it_populacao": 2327981,
       "vc_governador": {
-        "vc_nome": "",
-        "vc_data_nomeacao": "",
+        "vc_nome": "Eugénio César Laborinho",
+        "vc_data_nomeacao": "13/04/2026",
         "vc_imagem": ""
       },
-      "vc_vice_governadores": [],
+      "vc_vice_governadores": [
+        {
+          "vc_nome": "Emilia Cambundo Tchinawalile António Salles Camuhoto",
+          "vc_setor": "SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_data_nomeacao": "11/10/2022",
+          "vc_imagem": ""
+        },
+        {
+          "vc_nome": "Carlos Armando Albino",
+          "vc_setor": "SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_data_nomeacao": "05/08/2026",
+          "vc_imagem": ""
+        }
+      ],
       "vc_capital": "SUMBE",
       "vc_linguas": "Português, Kimbundu, Ubundu",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "41,9 hab/km²",
       "vc_data_fundacao_provincia": "15-09-1914",
       "vc_extensao": "55.660 km²",
       "vc_etnias": "Ambundu, Ovimbundu",
@@ -1427,30 +1506,32 @@
     {
       "it_id_provincia": 8,
       "vc_nome": "CUNENE",
+      "vc_codigo_iso": "AO-CNN",
+      "it_populacao": 1806417,
       "vc_governador": {
-        "vc_nome": "Gerdina Ulipamue Didalewa",
+        "vc_nome": "Gerdina Ulipamue Didalelwa",
         "vc_data_nomeacao": "16/09/2022",
-        "vc_imagem": "https://plataformacipra.gov.ao/public/ficheiros/entidades/332501220115131643116513.png"
+        "vc_imagem": ""
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "APOLO NDINOULENGA",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Apolo Ndinoulenga",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/VGOV_CUNENE_3f274d7bf2.png"
         },
         {
-          "vc_nome": "ANTÓNIO GILBERTO AUGUSTO MATIAS",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
-          "vc_data_nomeacao": "11/10/2022",
-          "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
+          "vc_nome": "Generoso Cláudio Kondjasili",
+          "vc_setor": "SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_data_nomeacao": "13/04/2026",
+          "vc_imagem": ""
         }
       ],
       "vc_capital": "CUANHAMA",
       "vc_linguas": "Português, Oshiwambo",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "23,5 hab/km²",
       "vc_data_fundacao_provincia": "10-07-1970",
-      "vc_extensao": "78.342 km²",
+      "vc_extensao": "77.000 km²",
       "vc_etnias": "Ovambu",
       "it_numero_municipios": 14,
       "municipalities": [
@@ -1600,30 +1681,32 @@
     {
       "it_id_provincia": 9,
       "vc_nome": "HUAMBO",
+      "vc_codigo_iso": "AO-HUA",
+      "it_populacao": 2691902,
       "vc_governador": {
-        "vc_nome": "PEREIRA ALFREDO",
+        "vc_nome": "Pereira Alfredo",
         "vc_data_nomeacao": "15/07/2024",
         "vc_imagem": "https://plataformacipra.gov.ao/public/ficheiros/entidades/291507241013081721077988.jpg"
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "ANGELINO EDMUNDO ELAVOCO",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Edgar Marcelino dos Santos Hilário",
+          "vc_setor": "Serviços Técnicos e Infra-estruturas",
           "vc_data_nomeacao": "31/01/2024",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         },
         {
-          "vc_nome": "Edgar Marcelino dos Santos Hilário",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_nome": "ANGELINO EDMUNDO ELAVOCO",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "02/02/2023",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         }
       ],
       "vc_capital": "HUAMBO",
       "vc_linguas": "Português, Umbundu",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "80,9 hab/km²",
       "vc_data_fundacao_provincia": "08-08-1912",
-      "vc_extensao": "2609 km²",
+      "vc_extensao": "33.290 km²",
       "vc_etnias": "Ovimbundu",
       "it_numero_municipios": 17,
       "municipalities": [
@@ -1829,6 +1912,8 @@
     {
       "it_id_provincia": 10,
       "vc_nome": "HUÍLA",
+      "vc_codigo_iso": "AO-HUI",
+      "it_populacao": 3302866,
       "vc_governador": {
         "vc_nome": "Nuno Bernabé Mahapi Dala",
         "vc_data_nomeacao": "16/09/2022",
@@ -1836,21 +1921,21 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "MARIA JOÃO FRANCISCO CHIPALAVELA",
-          "vc_setor": "VICE-GOVERNADORA PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Maria João Francisco Chipalavela",
+          "vc_setor": "Vice-Governadora para o Sector Político, Social e Económico",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         },
         {
-          "vc_nome": "HÉLIO DELIZE NETO DE ALMEIDA",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_nome": "Hélio Delize Neto de Almeida",
+          "vc_setor": "Vice-Governador para os Serviços Técnicos e Infra-estruturas",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         }
       ],
       "vc_capital": "LUBANGO",
       "vc_linguas": "Português, Olunhaneka, Umbundu",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "41,7 hab/km²",
       "vc_data_fundacao_provincia": "02-09-1901",
       "vc_extensao": "79022 km²",
       "vc_etnias": "Ovambu",
@@ -2108,6 +2193,8 @@
     {
       "it_id_provincia": 11,
       "vc_nome": "LUANDA",
+      "vc_codigo_iso": "AO-LUA",
+      "it_populacao": 8665510,
       "vc_governador": {
         "vc_nome": "Luís Manuel da Fonseca Nunes",
         "vc_data_nomeacao": "31/10/2024",
@@ -2115,35 +2202,40 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "MANUEL ANTÓNIO GONÇALVES",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR POLÍTICO E SOCIAL",
+          "vc_nome": "Manuel António Gonçalves",
+          "vc_setor": "SECTOR POLÍTICO E SOCIAL",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/lua_2_fe5c0e5d61.png"
         },
         {
-          "vc_nome": "JORGE MIGUÊNS AUGUSTO",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR ECONÓMICO",
+          "vc_nome": "Jorge Miguêns Augusto",
+          "vc_setor": "PARA O SECTOR ECONÓMICO",
           "vc_data_nomeacao": "25/10/2023",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/mingues_fa71a85208.png"
+        },
+        {
+          "vc_nome": "Calunga Francisco Zage Quissanga",
+          "vc_setor": "para a área Técnica e Infra-Estrutura",
+          "vc_data_nomeacao": "21/11/2024",
+          "vc_imagem": ""
         }
       ],
       "vc_capital": "INGOMBOTA",
       "vc_linguas": "Português, Kimbundu",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "5 258 hab/km²",
       "vc_data_fundacao_provincia": "25-01-1576",
-      "vc_extensao": "18.826 km²",
+      "vc_extensao": "1.648,1 km²",
       "vc_etnias": "Ambundu",
       "it_numero_municipios": 16,
       "municipalities": [
         {
           "vc_nome": "BELAS",
           "vc_comunas": [
-            "Benfica",
-            "Cabolombo",
             "Barra do Cuanza",
+            "Cabolombo",
             "Ramiros"
           ],
-          "it_numero_comunas": 4,
+          "it_numero_comunas": 3,
           "vc_distritos": [],
           "it_numero_distritos": 0,
           "vc_data_fundacao": "",
@@ -2289,8 +2381,11 @@
         },
         {
           "vc_nome": "TALATONA",
-          "vc_comunas": [],
-          "it_numero_comunas": 0,
+          "vc_comunas": [
+            "Talatona",
+            "Benfica"
+          ],
+          "it_numero_comunas": 2,
           "vc_distritos": [],
           "it_numero_distritos": 0,
           "vc_data_fundacao": "",
@@ -2301,17 +2396,32 @@
     {
       "it_id_provincia": 12,
       "vc_nome": "LUNDA-NORTE",
+      "vc_codigo_iso": "AO-LNO",
+      "it_populacao": 1742217,
       "vc_governador": {
-        "vc_nome": "",
-        "vc_data_nomeacao": "",
+        "vc_nome": "Filomena Elizabete Chitula Miza Aires",
+        "vc_data_nomeacao": "15/07/2024",
         "vc_imagem": ""
       },
-      "vc_vice_governadores": [],
+      "vc_vice_governadores": [
+        {
+          "vc_nome": "Faustino Alteres Teresa Malenga",
+          "vc_setor": "Sector Político, Social e Económico",
+          "vc_data_nomeacao": "09/12/2025",
+          "vc_imagem": ""
+        },
+        {
+          "vc_nome": "Domingos Dala",
+          "vc_setor": "PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_data_nomeacao": "11/10/2022",
+          "vc_imagem": ""
+        }
+      ],
       "vc_capital": "DUNDO",
       "vc_linguas": "Português, Cokwe",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "17,6 hab/km²",
       "vc_data_fundacao_provincia": "04-07-1978",
-      "vc_extensao": "103.760 km²",
+      "vc_extensao": "98.721,6 km²",
       "vc_etnias": "Cokwe",
       "it_numero_municipios": 19,
       "municipalities": [
@@ -2521,17 +2631,32 @@
     {
       "it_id_provincia": 13,
       "vc_nome": "LUNDA-SUL",
+      "vc_codigo_iso": "AO-LSU",
+      "it_populacao": 893936,
       "vc_governador": {
-        "vc_nome": "",
-        "vc_data_nomeacao": "",
+        "vc_nome": "Gildo Matias José",
+        "vc_data_nomeacao": "18/11/2025",
         "vc_imagem": ""
       },
-      "vc_vice_governadores": [],
+      "vc_vice_governadores": [
+        {
+          "vc_nome": "Mendes Lourenço Gaspar",
+          "vc_setor": "Vice-Governador para o Sector Político, Social e Económico",
+          "vc_data_nomeacao": "11/10/2022",
+          "vc_imagem": ""
+        },
+        {
+          "vc_nome": "Esmeraldino Cláudio Pemessa Abreu",
+          "vc_setor": "Vice-Governador para os Serviços Técnicos e Infra-estruturas",
+          "vc_data_nomeacao": "11/10/2022",
+          "vc_imagem": ""
+        }
+      ],
       "vc_capital": "Nenhuma capital definida",
       "vc_linguas": "Português, Cokwe",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "10,9 hab/km²",
       "vc_data_fundacao_provincia": "13-07-1895",
-      "vc_extensao": "77.636 km²",
+      "vc_extensao": "82.065,6 km²",
       "vc_etnias": "Cokwe",
       "it_numero_municipios": 14,
       "municipalities": [
@@ -2672,6 +2797,8 @@
     {
       "it_id_provincia": 14,
       "vc_nome": "MALANJE",
+      "vc_codigo_iso": "AO-MAL",
+      "it_populacao": 1298250,
       "vc_governador": {
         "vc_nome": "Marcos Alexandre Nhunga",
         "vc_data_nomeacao": "16/09/2022",
@@ -2679,23 +2806,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "FRANCO CAZEMBE MUFINDA",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
-          "vc_data_nomeacao": "25/10/2023",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/mala_d9d8a35873.jpg"
+          "vc_nome": "Joana Domingos dos Santos Filipe Tomás",
+          "vc_setor": "Sector Político, Social e Económico",
+          "vc_data_nomeacao": "11/06/2026",
+          "vc_imagem": ""
         },
         {
-          "vc_nome": "DUARTE ANDRÉ GINGA",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_nome": "Duarte André Ginga",
+          "vc_setor": "Serviços Técnicos e Infra-estruturas",
           "vc_data_nomeacao": "19/02/2024",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         }
       ],
       "vc_capital": "MALANJE",
       "vc_linguas": "Português, Kimbundu",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "15,0 hab/km²",
       "vc_data_fundacao_provincia": "13-02-1868",
-      "vc_extensao": "2.422 km²",
+      "vc_extensao": "86.700,2 km²",
       "vc_etnias": "Ambundu",
       "it_numero_municipios": 27,
       "municipalities": [
@@ -3003,6 +3130,8 @@
     {
       "it_id_provincia": 15,
       "vc_nome": "MOXICO",
+      "vc_codigo_iso": "AO-MOX",
+      "it_populacao": 574253,
       "vc_governador": {
         "vc_nome": "Ernesto Muangala",
         "vc_data_nomeacao": "16/09/2022",
@@ -3010,23 +3139,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "WILSON AGNELO CHINHAMA AUGUSTO",
-          "vc_setor": "VICE-GOVERNADOR PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_nome": "Elizabeth Mafo Sapato Ayala",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "31/01/2025",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/wilson_Augusto_e399179153.png"
+          "vc_imagem": "https://sys.portais.gov.ao/uploads/Elizabeth_Mafo_Sapato_Ayala_b2d51a09c1.png"
         },
         {
-          "vc_nome": "Elizabeth Mafo Sapato Ayala",
-          "vc_setor": "Vice-Governadora da Província do moxico Sector Político, Social e Económico",
+          "vc_nome": "Wilson Agnelo Chinhama Augusto",
+          "vc_setor": "Vice-Governador para os Serviços Técnicos e Infra-estruturas",
           "vc_data_nomeacao": "11/10/2022",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/Elizabeth_Mafo_Sapato_Ayala_b2d51a09c1.png"
+          "vc_imagem": "https://sys.portais.gov.ao/uploads/wilson_Augusto_e399179153.png"
         }
       ],
       "vc_capital": "Luena",
       "vc_linguas": "Português, Cokwe, Nganguela",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "4,6 hab/km²",
       "vc_data_fundacao_provincia": "15-09-1917",
-      "vc_extensao": "223.023 km²",
+      "vc_extensao": "125.890 km²",
       "vc_etnias": "Ovanga",
       "it_numero_municipios": 12,
       "municipalities": [
@@ -3161,6 +3290,8 @@
     {
       "it_id_provincia": 16,
       "vc_nome": "NAMIBE",
+      "vc_codigo_iso": "AO-NAM",
+      "it_populacao": 815708,
       "vc_governador": {
         "vc_nome": "Augusto Archer de Sousa Mangueira",
         "vc_data_nomeacao": "16/09/2022",
@@ -3168,23 +3299,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "EMA SAMALI HENRIQUES DA SILVA",
-          "vc_setor": "VICE-GOVERNADORA PARA OS  SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_nome": "Ema Samali Henriques da Silva",
+          "vc_setor": "Serviços Técnicos e Infra-estruturas",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/nam1_480a6c3a77.jpg"
         },
         {
-          "vc_nome": "Abel do Rosário Kapitango",
-          "vc_setor": "VICE-GOVERNADOR PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Anica Josina Pascoal de Sousa",
+          "vc_setor": "Vice-Governadora para o Sector Político, Social e Económico",
           "vc_data_nomeacao": "11/10/2022",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/Abel_Kapitango_removebg_preview_24026766aa.png"
+          "vc_imagem": ""
         }
       ],
       "vc_capital": "Nenhuma capital definida",
       "vc_linguas": "Português, Oluherero",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "14,3 hab/km²",
       "vc_data_fundacao_provincia": "10-07-1645",
-      "vc_extensao": "8916 km²",
+      "vc_extensao": "57.054,5 km²",
       "vc_etnias": "Minoria Oluyaneka",
       "it_numero_municipios": 9,
       "municipalities": [
@@ -3289,6 +3420,8 @@
     {
       "it_id_provincia": 17,
       "vc_nome": "UÍGE",
+      "vc_codigo_iso": "AO-UIG",
+      "it_populacao": 2017921,
       "vc_governador": {
         "vc_nome": "José Carvalho da Rocha",
         "vc_data_nomeacao": "16/09/2022",
@@ -3296,23 +3429,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "SÓNIA ARLETE FERNANDES DOMINGOS",
-          "vc_setor": "VICE-GOVERNADORA PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Sónia Arlete Fernandes Domingos",
+          "vc_setor": "Vice-Governadora para o Sector Político, Social e Económico",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         },
         {
-          "vc_nome": "HELENA DA CRUZ VIEIRA DIAS PEREIRA",
-          "vc_setor": "VICE-GOVERNADORA PARA OS SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
+          "vc_nome": "Helena da Cruz Vieira Dias Pereira",
+          "vc_setor": "Vice-Governadora para os Serviços Técnicos e Infra-estruturas",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         }
       ],
       "vc_capital": "UÍGE",
       "vc_linguas": "Português, Kikongo, Kimbundu",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "32,2 hab/km²",
       "vc_data_fundacao_provincia": "31-05-1887",
-      "vc_extensao": "58.698 km²",
+      "vc_extensao": "62.576,4 km²",
       "vc_etnias": "Bakongo, Ambundu",
       "it_numero_municipios": 23,
       "municipalities": [
@@ -3589,6 +3722,8 @@
     {
       "it_id_provincia": 18,
       "vc_nome": "ZAIRE",
+      "vc_codigo_iso": "AO-ZAI",
+      "it_populacao": 682658,
       "vc_governador": {
         "vc_nome": "Adriano Mendes de Carvalho",
         "vc_data_nomeacao": "16/09/2022",
@@ -3596,23 +3731,23 @@
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "ÂNGELA MARIA BOTELHO DE CARVALHO DIOGO",
-          "vc_setor": "VICE-GOVERNADORA DA SERVIÇOS TÉCNICOS E INFRA-ESTRUTURAS",
-          "vc_data_nomeacao": "11/10/2022",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/zaire_1_7d8fffa46a.png"
+          "vc_nome": "Adelino Domingos Kai",
+          "vc_setor": "Serviços Técnicos e Infra-estruturas",
+          "vc_data_nomeacao": "01/06/2026",
+          "vc_imagem": ""
         },
         {
-          "vc_nome": "AFONSO NZOLAMESSO",
-          "vc_setor": "VICE-GOVERNADOR DA VICE-GOVERNADOR PARA O SECTOR POLÍTICO, SOCIAL E ECONÓMICO",
+          "vc_nome": "Afonso Nzolamesso",
+          "vc_setor": "Vice-Governador para o Sector Político, Social e Económico",
           "vc_data_nomeacao": "11/10/2022",
           "vc_imagem": "https://sys.portais.gov.ao/uploads/zaire2_1a6a0cf844.jpeg"
         }
       ],
       "vc_capital": "MBANZA KONGO",
       "vc_linguas": "Português, Kikongo",
-      "vc_densidade_populacional": "00",
+      "vc_densidade_populacional": "18,3 hab/km²",
       "vc_data_fundacao_provincia": "01-04-1961",
-      "vc_extensao": "40130 km²",
+      "vc_extensao": "37.210 km²",
       "vc_etnias": "Bakongo",
       "it_numero_municipios": 11,
       "municipalities": [
@@ -3747,6 +3882,8 @@
     {
       "it_id_provincia": 22,
       "vc_nome": "MOXICO LESTE",
+      "vc_codigo_iso": "AO-MLE",
+      "it_populacao": 411074,
       "vc_governador": {
         "vc_nome": "Crispiniano Vivaldino Evaristo dos Santos",
         "vc_data_nomeacao": "17/12/2024",
@@ -3755,22 +3892,22 @@
       "vc_vice_governadores": [
         {
           "vc_nome": "Pedro Camilo da Costa Supula",
-          "vc_setor": "Vice-Governador da Província do moxico leste Sector Político, Social e Económico",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "31/01/2025",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         },
         {
           "vc_nome": "Mário Anderson Mutupa",
-          "vc_setor": "Vice-Governador da Província do Moxico Leste Serviços Técnicos e Infra-Estruturas",
+          "vc_setor": "Serviços Técnicos e Infra-Estruturas",
           "vc_data_nomeacao": "31/01/2025",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         }
       ],
       "vc_capital": "CAZOMBO",
       "vc_linguas": "Português, Cokwe",
-      "vc_densidade_populacional": "",
+      "vc_densidade_populacional": "5,5 hab/km²",
       "vc_data_fundacao_provincia": "01-01-2025",
-      "vc_extensao": "Sem informação km²",
+      "vc_extensao": "75.079 km²",
       "vc_etnias": "",
       "it_numero_municipios": 9,
       "municipalities": [
@@ -3866,24 +4003,32 @@
     {
       "it_id_provincia": 23,
       "vc_nome": "CUANDO",
+      "vc_codigo_iso": "AO-CUB",
+      "it_populacao": 138770,
       "vc_governador": {
-        "vc_nome": "Lúcio Gonçalves Amaral",
-        "vc_data_nomeacao": "17/12/2024",
-        "vc_imagem": "https://plataformacipra.gov.ao/public/ficheiros/entidades/552801250314571738073697.jpg"
+        "vc_nome": "Carla Maria Domingas Cativa",
+        "vc_data_nomeacao": "29/04/2026",
+        "vc_imagem": ""
       },
       "vc_vice_governadores": [
         {
-          "vc_nome": "Claudiosvaldo Muhongo  Arrastar",
-          "vc_setor": "Vice-Governador para Área Técnica e Infraestrutura da Província do Cuando",
+          "vc_nome": "André Zinga Nkula",
+          "vc_setor": "Social e Económico",
           "vc_data_nomeacao": "31/01/2025",
-          "vc_imagem": "https://sys.portais.gov.ao/uploads/499536908_122132626706756327_3420925557017978827_n_3_0028c7e59a.jpg"
+          "vc_imagem": ""
+        },
+        {
+          "vc_nome": "Claudiosvaldo da Glória Nunda Muhongo",
+          "vc_setor": "Serviços Técnicos e Infra-Estruturas",
+          "vc_data_nomeacao": "31/01/2025",
+          "vc_imagem": ""
         }
       ],
       "vc_capital": "MAVINGA",
       "vc_linguas": "Português, Nganguela",
-      "vc_densidade_populacional": "",
+      "vc_densidade_populacional": "1,3 hab/km²",
       "vc_data_fundacao_provincia": "01-01-2025",
-      "vc_extensao": "Sem informação km²",
+      "vc_extensao": "108.908 km²",
       "vc_etnias": "Ovanganguela",
       "it_numero_municipios": 9,
       "municipalities": [
@@ -3982,6 +4127,8 @@
     {
       "it_id_provincia": 24,
       "vc_nome": "ICOLO E BENGO",
+      "vc_codigo_iso": "AO-ICB",
+      "it_populacao": 1523457,
       "vc_governador": {
         "vc_nome": "Auzílio de Oliveira Martins Jacob",
         "vc_data_nomeacao": "17/12/2024",
@@ -3990,22 +4137,22 @@
       "vc_vice_governadores": [
         {
           "vc_nome": "Agostinho Pedro António",
-          "vc_setor": "Vice-Governador da Província do icolo e bengo Sector Político, Social e Económico",
+          "vc_setor": "Sector Político, Social e Económico",
           "vc_data_nomeacao": "31/01/2025",
           "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
         },
         {
-          "vc_nome": "Zenilda Leila do Amaral Mandinga",
-          "vc_setor": "Vice-Governadora da província de Icolo e Bengo para os Serviços Técnicos e Infra-Estruturas",
+          "vc_nome": "Zenilda Leila do Amaral Manding",
+          "vc_setor": "Serviços Técnicos e Infra-Estruturas",
           "vc_data_nomeacao": "31/01/2025",
-          "vc_imagem": "https://iapi.gov.ao/themes/portalweb/assets/public/app-assets/img/titular-ministerio.png"
+          "vc_imagem": ""
         }
       ],
       "vc_capital": "CATETE",
       "vc_linguas": "Português, Kimbundu",
-      "vc_densidade_populacional": "",
+      "vc_densidade_populacional": "89,9 hab/km²",
       "vc_data_fundacao_provincia": "01-01-2025",
-      "vc_extensao": "Sem informação km²",
+      "vc_extensao": "17.138,5 km²",
       "vc_etnias": "Ambundu",
       "it_numero_municipios": 7,
       "municipalities": [
