@@ -1,6 +1,7 @@
 package ao.vanadio.publicinformationapi.features.countries.service;
 
 import ao.vanadio.publicinformationapi.bootstrap.cache.CacheNames;
+import ao.vanadio.publicinformationapi.bootstrap.web.NotFoundException;
 import ao.vanadio.publicinformationapi.features.countries.dto.request.CountryFilter;
 import ao.vanadio.publicinformationapi.features.countries.dto.source.CountryJson;
 import ao.vanadio.publicinformationapi.features.countries.dto.response.CountryResponse;
@@ -15,8 +16,10 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
 import java.io.InputStream;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 @Slf4j
 @Service
@@ -27,11 +30,23 @@ public class CountryService {
     private final CountryMapper countryMapper;
 
     private List<CountryJson> countries;
+    private Map<String, CountryJson> countriesByCode;
 
     @PostConstruct
     void loadCountries() throws Exception {
         InputStream inputStream = new ClassPathResource("data/countries.json").getInputStream();
         countries = objectMapper.readValue(inputStream, new TypeReference<>() {});
+        countriesByCode = new HashMap<>();
+        for (CountryJson country : countries) {
+            if (country.cca2() != null) countriesByCode.put(country.cca2().toUpperCase(Locale.ROOT), country);
+            if (country.cca3() != null) countriesByCode.put(country.cca3().toUpperCase(Locale.ROOT), country);
+        }
+    }
+
+    public CountryJson requireCountry(String code) {
+        CountryJson country = code == null ? null : countriesByCode.get(code.strip().toUpperCase(Locale.ROOT));
+        if (country == null) throw new NotFoundException("Country not found: " + code);
+        return country;
     }
 
     @Cacheable(
@@ -39,8 +54,6 @@ public class CountryService {
             key = "#page + ':' + #size + ':' + #filter + ':' + #locale"
     )
     public List<CountryResponse> getCountries(int page, int size, CountryFilter filter, Locale locale) {
-//        log.debug("Cache miss — computing countries [page={}, size={}, filter={}, locale={}]", page, size, filter, locale);
-
         return applyPagination(applyFilters(countries, filter), page, size)
                 .stream()
                 .map(country -> countryMapper.toResponse(country, locale))
